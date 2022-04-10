@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juego</title>
+	<link rel="stylesheet" type="text/css" href="css/EstiloJuego.css">
+<script>
+	function redireccion(){
+	   location.href = "FormularioEnviado.html"
+	}
+   function confirmarRespuesta(){
+	   var respuesta = confirm("¿Está seguro de querer enviar el formulario?");
+	   if(respuesta == true){
+		   return true  ;
+			
+	   }
+	   else{
+		   return false;
+	   }
+	 
+	   
+   }
+   function Páginaprincipal() {
+	   location.href="index.html"
+	   
+   }
+   function Formulario() {
+	   location.href="CorreoElectrónico.html"
+   }
+</script>
+<body>
+	   <nav class="center">
+		<h2> <a onclick="window.location.href='https://www.youtube.com/c/Lasrecetasdemj1'"><img  width="150em"  src="Fotos/best-restaurant-logo-design-3.gif"></a></h2>
+		   <a onclick="Páginaprincipal()" class="button">Página principal</a>
+		   <a onclick="Formulario()" class="button">Formulario</a>
+	   
+	   </nav>
+	<h1>Consigue superar el juego para conseguir la participación en un gran sorteo<br></h1>
+	<div class="contenedor pointer">
+		<span id="puntos"></span>
+		<span id="ned"></span>
+		<span id="tiempo"></span>
+	</div>
+	<div class="contenedor">
+		<div id="player"> <img src="Fotos/best-restaurant-logo-design-3.gif" width="100em" height="40em"></div>
+	</div>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/Formulario.css">
+<script>
+     function redireccion(){
+        location.href = "FormularioEnviado.html"
+     }
+    function confirmarRespuesta(){
+        var respuesta = confirm("¿Está seguro de querer enviar el formulario?");
+        if(respuesta == true){
+            return true  ;
+             
+        }
+        else{
+            return false;
+        }
+      
+        
+    }
+    function Páginaprincipal() {
+        location.href="index.html"
+        
+    }
+    function Juego() {
+        location.href="EntradaJuego.html"
+    }
+</script>
+<body>
+    <main>
+        <nav class="center">
+            <h2> <a onclick="window.location.href='https://www.youtube.com/c/Lasrecetasdemj1'"><img  width="150em"  src="Fotos/best-restaurant-logo-design-3.gif"></a></h2>
+            <a onclick="Páginaprincipal()" class="button">Página principal</a>
+            <a onclick="Juego()" class="button">Juego</a>
+        
+        </nav>
+        <header class="center">
+            <h1>RECETAS TRADICIONALES POR EL MUNDO</h1>
+            <p class="textinicial">Los datos proporcionados a continuación serán utilizados para proporcionarle recomendaciones personales al correo facilitado</p>
+        </header>
+        <article class="formulario">
+            <section class="preguntas">
+            <form action="" name="formulario" method="get" id="form">
+                <h6 class="titulos"> Completa los siguientes datos</h6> <br>
+                <article class="Introduccion" id="Introduccion">
+                Introduzca su nombre: <br>
+                <input type="text" id="nombre" name="nombre" maxlength="30" required>
+                <br>
+                Introduzca su lugar de nacimiento: <br>
+                <input type="text" required>
+                <br>
+                Introduzca su edad: <br>
+                <input type="text" required>
+                <br>
+                Introduzca su peso: <br>
+                <input type="number" id="peso" required>
+                <br>
+                Introduzca su altura: <br>
+                <input type="number" id="altura" required>
+                <br>
+                ¿Realiza algún tipo de deporte? ¿Cuál? <br>
+                 <br>
+                <textarea name="Deporte" id="dep" cols="30" rows="10" required>Escriba brevemente los deportes que practique.</textarea>
+               <br>
+               <h7>Introduzca su género</h7>
+               <br>
+               <input name="género" type="radio" required>
+               Hombre
+               <br>
+               <input name="género" type="radio" required>
+               Mujer
+               <br>
+               <input name="género" type="radio" required>
+               Otro
+               <h6 class="titulos">A continuación marque los alimentos que ha consumido recientemente</h6>
+               <input name="AlimentosConsumidos" type="checkbox" > 
+               Pescado
+               <br>
+               <input name="AlimentosConsumidos" type="checkbox"> 
+               Fruta
+               <br>
+               <input name="AlimentosConsumidos" type="checkbox"> 
+               Verdura
+               <br>
+               <input name="AlimentosConsumidos" type="checkbox"> 
+               Carne
+               <br>
+               <input name="AlimentosConsumidos" type="checkbox"> 
+               Bebidas gaseosas
+               <br>
+               <input name="AlimentosConsumidos" type="checkbox"> 
+               Alcohol
+            </section>
+            
+            <section class="preguntas">
+                <h6 class="titulos"> Elija su restaurante de comida rápida favorito</h6>
+                <form>
+                    <select name="Restaurante" id="restaurante" required>
+            
+                        <option>McDonalds
+                        <option>KFC
+                        <option>Burger King
+                        <option>Telepizza
+                        <option>Taco bell
+            
+                    </select> <br>
+                    <label >Introduzca una fotografía de su alimento favorito</label> <br>
+                    <input type="file" name="image" id="file">
+                
+                <h6 class="titulos">Al apretar este botón finalizará el formulario</h6>
+                <button type="submit" id="Botton" value="enviar" class="finalizar" onclick="confirmarRespuesta() && redireccion()">Enviar</button>
+                </form>
+              
+                <article>
+                    <iframe class="video" width="300em" height="200em" src="https://www.youtube.com/embed/PQt8yNFPwjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </article>
+            </section>
+            <section class="derecha">
+                <article class="anuncios">
+                    <h2 class="titulos">Restaurantes comida rápida</h2>
+                    <a href="https://mcdonalds.es/"><img src="Fotos/mcdonalds-logo.jpg" width="200"></a>
+                    <a href="https://www.burgerking.es/home"> <img src="Fotos/Burger-King-FB.jpg" width="200"> </a>
+                    <a href="https://tacobell.es/"> <img class="taco" src="Fotos/taco_bell_logo.jpg" width="200"> </a>
+                    <a href="https://www.telepizza.es/"> <img src="Fotos/telepizza-1024x677.png" width="200"> </a>
+                
+                </article>
+                
+            </section>
+          
+</body>
+</html>

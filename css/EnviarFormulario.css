@@ -1,0 +1,31 @@
+body{ 
+    background-color: whitesmoke;
+    
+}
+article.enviado{
+    background-color:e2c6ae;
+    border-style:groove;
+    border-color:black;
+    border-radius: 10px;
+    border-right-width: 5px ;
+    border-left-width: 5px;
+    width: 20em;
+    text-align: center;
+    margin: auto;
+    margin-top: 20em;
+    padding: 2em;
+    
+ 
+}
+button.boton{
+    border-radius: 10px;
+    transition: 00.2s;
+    background-color: whitesmoke;
+    width: 5em;
+
+}
+.boton:hover{
+    background-color: white;
+    box-shadow: 0 0 10px white;
+
+}

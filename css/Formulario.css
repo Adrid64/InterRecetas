@@ -1,0 +1,56 @@
+body{
+    background-color: whitesmoke;
+}
+.formulario{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+   
+}
+.titulos{
+    font-size: 1em;
+}
+.textinicial{
+    font-size: 0.7em;
+    font-style: oblique;
+}
+nav {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.button {
+    font-style: italic;
+    letter-spacing: 0.1em;
+    color: black;
+    padding: 1em;
+    text-decoration: none;
+    transition: 0.2s;
+    text-align: center;
+}
+.button:hover {
+    color: brown;
+    background: rgb(212, 212, 212);
+    box-shadow: 0 0 10px bisque;
+
+}
+.derecha{
+    background-color: whitesmoke;
+    padding: 0em;
+}
+.preguntas{
+    padding: 2em;
+}
+.anuncios{
+    background-color: whitesmoke;
+    width: 20em;
+    text-align: right;
+    
+}
+.finalizar{
+    text-align: center;
+}
+.video{
+    padding-top: 6em;
+}

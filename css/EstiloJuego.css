@@ -1,0 +1,64 @@
+
+
+.contenedor {
+    padding: 0px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    border: 8px dashed rgba(110, 57, 57, 0.562);
+}
+
+
+
+#player {
+	background-color: #900;
+	border: 4px dashed #b22;
+	width: 100px;
+	height: 40px;
+	border-radius: 29px;
+	position: absolute;
+	transition: all 0.3s
+}
+.pointer {
+	background-color: #444;
+	height: 30px;
+	margin-top: 30px;
+	border-bottom: 0px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0px;
+}
+body{
+	background-color: whitesmoke;
+}
+h1{
+background-color: burlywood;
+width: 20em;
+height: 5em;
+position: relative;
+text-align: center;
+margin: auto;
+border-style: double;
+}
+nav {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.button {
+    font-style: italic;
+    letter-spacing: 0.1em;
+    color: black;
+    padding: 1em;
+    text-decoration: none;
+    transition: 0.2s;
+    text-align: center;
+}
+.button:hover {
+    color: brown;
+    background: rgb(212, 212, 212);
+    box-shadow: 0 0 10px bisque;
+
+}

@@ -1,0 +1,79 @@
+section {
+    background-color: antiquewhite;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+
+article {
+    padding: 0.1em 1em;
+}
+
+nav {
+    background-color: white;
+    display: grid;
+    gap: 0.3em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+  
+    padding: 1em;
+    background-color: bisque;
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: right;
+    margin: auto;
+}
+
+.center {
+    margin-left: 10em;
+    text-align: center;
+    
+}
+
+.button {
+    font-style: italic;
+    letter-spacing: 0.1em;
+    color: black;
+    padding: 1em;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.button:hover {
+    color: brown;
+    background: rgb(212, 212, 212);
+    box-shadow: 0 0 10px bisque;
+}
+.logo{
+    width: 12em;
+}
+.img{
+    width: 3em;
+    padding-left: 2em;
+
+}
+.Tituloa{
+    color: black;
+}
+.mapa{
+    border-style:dashed;
+}
+.lugarmapa{
+    text-align: center;
+}

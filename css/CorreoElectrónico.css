@@ -1,0 +1,51 @@
+body{ 
+    background-color: whitesmoke;
+    
+}
+.enviado{
+    background-color:e2c6ae;
+    border-style:groove;
+    border-color:black;
+    border-radius: 10px;
+    border-right-width: 5px ;
+    border-left-width: 5px;
+    width: 20em;
+    text-align: center;
+    margin: auto;
+    margin-top: 10em;
+    
+    
+ 
+}
+button.boton{
+    border-radius: 10px;
+    transition: 00.2s;
+    background-color: whitesmoke;
+    width: 5em;
+
+}
+.boton:hover{
+    background-color: white;
+    box-shadow: 0 0 10px white;
+
+}
+nav {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.button {
+    font-style: italic;
+    letter-spacing: 0.1em;
+    color: black;
+    padding: 1em;
+    text-decoration: none;
+    transition: 0.2s;
+    text-align: center;
+}
+.button:hover {
+    color: brown;
+    background: rgb(212, 212, 212);
+    box-shadow: 0 0 10px bisque;
+
+}
